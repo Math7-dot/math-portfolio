@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio — Sobre Mim</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <div class="container">
+    <header>
+      
+      <div>
+        <h1 class="texto">Portfólio — sobre mim </h1>
+        
+      </div>
+  
+</head>
+<body>
+
+  <!-- CAPA -->
+  <div class="capa">
+    <img src="image.png" alt="Foto 1">
+    <img src="image copy.png" alt="Foto 2">
+    <img src="mt1.jpg" alt="Foto 3">
+  </div>
+
+  <!-- CARDS -->
+  <div class="container">
+    <!-- Card Trabalhos -->
+    <div class="card" id="cardTrabalhos">
+      <h3>Meus Trabalhos</h3>
+      <p>Aqui mostro dois projetos importantes.</p>
+       <img src="image copy 2.png" alt="App do iFood" class="ifood">
+       <img src="image copy 3.png" alt="jogo" class="ifood">
+      <button onclick="toggleCard('cardTrabalhos', this)">Ver mais</button>
+      <div class="conteudo-extra">
+        <p><strong>Trabalho 1:</strong> App do ifood criação própria</p>
+        <p><strong>Trabalho 2:</strong> Jogo em grupo : homem x gorila</p>
+      </div>
+    </div>
+
+    <!-- Card Sobre Mim -->
+    <div class="card" id="cardSobreMim">
+      <h3>Sobre Mim</h3>
+      <p>Um pouco sobre quem eu sou.</p>
+      <button onclick="toggleCard('cardSobreMim', this)">Ver mais</button>
+      <div class="conteudo-extra">
+        <p>Sou o Matheus, nasci e cresci na zona leste de São paulo , tenho 17 anos  faço infonet e mostrarei um pouco do que fiz até agora </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
